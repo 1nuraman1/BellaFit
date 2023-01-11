@@ -1,0 +1,79 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+section {
+    background-color: #C4140F;
+    color: #FFFFFF;
+}
+
+.section-title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+}
+
+.section-title button {
+    background: #FAFF05;
+    font-family: 'Bebas Neue', cursive;
+    width: 229px;
+    height: 76px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 7rem;
+}
+
+.woman {
+    width: 486px;
+    height: 897px;
+    margin-top: 4%;
+    z-index: 1;
+}
+
+.rectangle {
+    width: 635px;
+    height: 750px;
+    margin-left: 53%;
+    margin-top: -49%;
+}
+
+.section-title-2 .text-fitness {
+    font-family: 'Bebas Neue', cursive;
+    width: 1523px;
+    height: 336px;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 336px;
+    letter-spacing: 140px;
+    margin-top: -40%;
+    margin-left: 17%;
+    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        width: 125rem;
+    }
+
+    .section-title-2 .text-fitness {
+        margin-top: -32%;
+        margin-left: 17%;
+    }
+
+    .rectangle {
+        margin-left: 58%;
+    }
+}
